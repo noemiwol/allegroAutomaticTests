@@ -1,0 +1,1 @@
+export const homeUrl:string = "https://allegro.pl/";

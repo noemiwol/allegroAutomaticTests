@@ -12,14 +12,14 @@
             expect(browser).toHaveTitle(homePageTitle);
         })
         it("search for a product and verify the search text value and redirect to new page and verify the title " , async() =>{
-        const searchInput = await $("//input[@name='string']");
-        const searchBtn = await $("/html/body/div[2]/div[3]/div/div/div/div/div/div[3]/header/div/div/div/div/form/button");
+            const searchInput = await $("//input[@name='string']");
+            const searchBtn = await $("/html/body/div[2]/div[3]/div/div/div/div/div/div[3]/header/div/div/div/div/form/button");
     
-        await searchInput.setValue(searchPhrase);
-        await searchBtn.click();
+            await searchInput.setValue(searchPhrase);
+            await searchBtn.click();
 
-        expect(await searchInput.getValue()).toContain(searchPhrase);
-        expect( await browser).toHaveValue(searchLodowkiPageTitle);
+            expect(await searchInput.getValue()).toContain(searchPhrase);
+            expect( await browser).toHaveValue(searchLodowkiPageTitle);
 
         })
     });

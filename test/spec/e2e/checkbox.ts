@@ -51,6 +51,5 @@ describe("We check the operation of the check box in the household appliances ca
     it("clik button apply filters", async ()=>{
         const apllyFiltresBtn:WebdriverIO.Element = await $("//*[@id='section_filters']/div[4]/button/span");
         await apllyFiltresBtn.click();
-        await browser.pause(3000);
     })
 });

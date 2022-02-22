@@ -22,6 +22,7 @@ describe("We check the operation of the check box in the household appliances ca
         const noFrostRefrigeratorsBtn:WebdriverIO.Element = await $("//*[@id='section_category']/div[3]");
         await noFrostRefrigeratorsBtn.click();
         
+
         expect(await browser).toHaveUrl(agdUrl);
         expect( await browser).toHaveTitle(agdPageTitle);
         

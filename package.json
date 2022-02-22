@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "e2e": "wdio wdio.conf.ts",
-    "input": "wdio wdio.conf.ts --suite input"
+    "input": "wdio wdio.conf.ts --suite input",
+    "checkbox": "wdio wdio.conf.ts --suite checkbox"
   },
   "author": "Noemi Krysiak-Wolanska",
   "license": "ISC",

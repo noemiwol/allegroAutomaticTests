@@ -1,3 +1,3 @@
 export const searchPhrase:string = "Lodówka";
-export const homePageTitle:string = "Allegro - atrakcyjne ceny";
-export const searchLodowkiPageTitle:string = "Lodówki - Niska cena na Allegro.pl";
+export const homePageTitle:string = "Media Expert | Sklep internetowy RTV, AGD, komputery";
+export const searchLodowkiPageTitle:string = "Lodówki  -  niskie ceny i setki opinii w Media Expert";
